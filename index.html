@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0a1afff0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3 id="title">SPLI<br>TTER</h3>
+    <div id="container">
+        <div id="top-sec">
+            <div id="bill-sec">
+                <div class="title-sec">
+                    <span class="title-spans">Bill</span>
+                    <span id="bill-error" class="error-msg" style="display: none;">invalid value</span>
+                </div>
+                <div class="input-secs" id="bill-input-sec">
+                    <input type="number" id="bill-input">
+                    <i class="fa-solid fa-dollar" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div id="selection-sec">
+                <div class="title-sec">
+                    <span class="title-spans">Select Tip %</span>
+                    <span id="select-error" class="error-msg" style="display: none;">select one</span>
+                </div>
+                <div id="box-area">
+                    <span val="5" class="boxes">5%</span>
+                    <span val="10" class="boxes">10%</span>
+                    <span val="15" class="boxes">15%</span>
+                    <span val="25" class="boxes">25%</span>
+                    <span val="50" class="boxes">50%</span>
+                    <div class="boxes" id="custom-div" style="display: none;">
+                        <input  id="custom-tip-input" placeholder="%" type="number">
+                    </div>
+                    <span id="custom-span">Custom</span>
+                </div>
+            </div>
+            <div id="people-sec">
+                <div class="title-sec">
+                    <span class="title-spans">Number of People</span>
+                    <span id="number-error" class="error-msg" style="display: none;">invalid value</span>
+                </div>
+                <div class="input-secs" id="number-input-sec">
+                    <input type="number" id="number-input">
+                    <i class="fa-solid fa-user" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div id="bottom-sec">
+            <div id="bottom-row-sec">
+                <div class="bottom-row">
+                    <span>
+                        Tip Amount <br> <small>/ person</small>
+                    </span>
+                    <span id="tip-amount" class="result-number">$0</span>
+                </div>
+                <div class="bottom-row">
+                    <span>
+                        Total <br> <small>/ person</small>
+                    </span>
+                    <span id="total-amount" class="result-number">$0</span>
+                </div>
+            </div>
+            <span id="calculate-button">CALCULATE</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
