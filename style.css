@@ -1,0 +1,254 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(185, 41%, 84%);
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Mono' , monospace;
+}
+
+#title {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+    color: hsl(186, 14%, 43%);
+}
+
+#container {
+    background-color:hsl(0, 100%, 100%);
+    flex: 10;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 23px;
+    row-gap: 25px;
+}
+
+
+
+/* top sec */
+
+
+#top-sec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.title-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-spans {
+    color: hsl(183, 100%, 15%);
+}
+.error-msg {
+    font-size: .7em;
+    color: red;
+}
+
+
+
+
+/* top bill sec */
+
+
+#bill-sec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+#bill-input-sec {
+    
+}
+#bill-input {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(189, 47%, 97%);
+    border: none;
+    outline: none;
+}
+#bill-input:hover {
+    outline: 1px solid hsl(172, 67%, 45%);
+    cursor: pointer;
+}
+.input-secs {
+    position: relative;
+}
+i {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    color: hsl(186, 14%, 43%);
+}
+
+
+/* top selection sec */
+#selection-sec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+#box-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    row-gap: 12px;
+    column-gap: 12px;
+}
+.boxes {
+    background-color: hsl(183, 100%, 15%);
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3em;
+}
+.boxes:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: black;
+    cursor: pointer;
+}
+.boxes.active {
+    background-color: hsl(172, 67%, 45%);
+    color: black;
+    outline: hsl(172, 67%, 45%);
+
+}
+#custom-div {
+    padding: 0px;
+}
+#custom-span {
+    background-color: hsl(189, 47%, 97%);
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+#custom-tip-input {
+    background-color: hsl(189, 47%, 97%);
+    color: hsl(183, 100%, 15%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.15em;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+}
+
+
+/* top people sec */
+
+
+
+#people-sec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+#number-input-sec {
+
+}
+#number-input {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(189, 47%, 97%);
+    border: none;
+    outline: none;
+}
+#number-input:hover {
+    outline: 1px solid hsl(172, 67%, 45%);
+    cursor: pointer;
+}
+
+
+/* bottom sec */
+
+
+
+#bottom-sec {
+    background-color: hsl(183, 100%, 15%);
+    color: white ;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 5px;
+    border-radius: 10px;
+}
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.bottom-row small {
+    color: hsl(184, 14%, 56%);
+}
+.result-number {
+    color: hsl(172, 67%, 45%);
+    font-size: 1.6em;
+}
+#calculate-button {
+    background-color: hsl(172, 67%, 45%);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+#calculate-button:hover {
+    cursor: pointer;
+    background-color: hsl(172, 47%, 66%);
+}
+
+@media screen and (min-width : 1000px)  {
+    body {
+        display: block;
+        position: absolute;
+    }
+    #title {
+        position: fixed;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    #container {
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 55%;
+        left: 50%;
+        width: 60%;
+        transform: translate(-50% , -50%);
+        column-gap: 30px;
+    }
+    #top-sec {
+        flex: 1;
+    }
+    #bottom-sec {
+        flex: 1;
+        justify-content: space-between;
+    }
+    #bottom-row-sec {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    #calculate-button {
+        margin-top: 40px;
+    }
+}
