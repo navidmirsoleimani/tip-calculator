@@ -10,7 +10,7 @@ let customSpan = document.querySelector('#custom-span')
 let customDiv = document.querySelector('#custom-div')
 let customInput = document.querySelector('#custom-tip-input')
 let selectError = document.querySelector('#select-error')
-let tip = -1
+let tip = 0
 
 
 let numberInput = document.querySelector('#number-input')
@@ -72,7 +72,7 @@ boxArea.addEventListener('click' , (e)=> {
 
 
 customSpan.addEventListener('click' , (e)=> {
-    tip = -1
+    tip = 0
     tipBoxes.forEach((box)=> {
             box.classList.remove('active')
     })
@@ -93,6 +93,11 @@ customSpan.addEventListener('click' , (e)=> {
             tip = e.target.value
         }
     })
+    customInput.addEventListener('keydown' , (e)=> {
+            if (e.key == 'e') {
+                e.preventDefault()
+            }
+        })
 })
 
 
@@ -124,7 +129,7 @@ calculateButton.addEventListener('click' , (e)=> {
         billError.style.display = 'none'
     }
     if (tip == -1) {
-        selectError.innerHTML = 'please select one option'
+        selectError.innerHTML = 'invalid value'
         selectError.style.display = 'unset'
     } else {
         selectError.style.display = 'none'
@@ -144,6 +149,10 @@ calculateButton.addEventListener('click' , (e)=> {
         return
     }
 })
+
+
+
+
 
 
 
