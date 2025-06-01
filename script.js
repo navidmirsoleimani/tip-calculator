@@ -58,6 +58,7 @@ boxArea.addEventListener('click' , (e)=> {
     selectError.style.display = 'none'
     if (e.target.classList.contains('boxes')) {
         customDiv.style.display = 'none'
+        customInput.value = ''
         customSpan.style.display = 'unset'
         tipBoxes.forEach((box)=> {
             box.classList.remove('active')
