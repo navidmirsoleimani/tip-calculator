@@ -87,7 +87,7 @@ customSpan.addEventListener('click' , (e)=> {
             selectError.style.display = 'unset'
         } else if (e.target.value > 100) {
             tip = -1
-            selectError.innerHTML = 'tip must be between 0% and 100%'
+            selectError.innerHTML = 'must be between 0% and 100%'
             selectError.style.display = 'unset'
         } else {
             selectError.style.display = 'none'
