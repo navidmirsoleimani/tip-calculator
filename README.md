@@ -29,6 +29,16 @@ Mackbook Air 1559x975
 <img width="1169" height="731" alt="Macbook-Air-1559x975" src="https://github.com/user-attachments/assets/4a3c9df2-5572-4654-a0a2-296696a52996" />
 
 
+
+Active
+<img width="1169" height="731" alt="Macbook-Air-active-1559x975" src="https://github.com/user-attachments/assets/7b71743f-b4da-44b4-923d-a8e208f576b9" />
+
+
+Error
+<img width="1169" height="731" alt="Macbook-Air-Error1559x975" src="https://github.com/user-attachments/assets/f3cb6769-e651-4509-a72f-72187d0c20fb" />
+
+
+
 ---
 
 ### Links
