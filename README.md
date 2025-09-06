@@ -1,99 +1,93 @@
 # Tip Calculator
 
-## Overview
+A responsive **Tip Calculator** built with **HTML, CSS, and Vanilla JavaScript**.
+This tool allows users to split bills easily by calculating **tip amount per person** and **total amount per person**.
 
-This project is a solution to the **Tip Calculator App** challenge from [Frontend Mentor](https://www.frontendmentor.io).
-It is a simple yet practical web application that allows users to calculate the **tip amount per person** and the **total cost per person** when splitting a bill in a group.
-
-The project demonstrates core front-end development skills, including **semantic HTML**, **modern CSS techniques**, and **JavaScript for dynamic interactivity**.
+Users can choose from predefined tip percentages or enter a custom percentage. Input validation is included to prevent errors when fields are left empty or invalid values are provided. The design is fully responsive for desktop, tablet, and mobile screens.
 
 ---
 
-### The challenge
+## 🚀 Overview
 
-Users should be able to:
+* **Bill Amount**: Enter the total bill value.
+* **Tip Percentage**: Choose from predefined options or enter a custom percentage.
+* **Number of People**: Define how many people are splitting the bill.
 
-* Enter the bill amount.
-* Select a tip percentage or enter a custom percentage.
-* Specify the number of people splitting the bill.
-* Instantly view the **calculated tip amount per person** and the **total amount per person**.
-* Reset the calculator to start a new calculation.
+The calculator then provides:
 
----
+* Tip amount per person
+* Total amount per person
 
-### Screenshot
-iphone 14 pro max
-<img width="1290" height="2796" alt="(iPhone 14 Pro Max)" src="https://github.com/user-attachments/assets/47b3a17b-4102-4dc3-808f-9e3c32e787e3" />
-
-Mackbook Air 1559x975
-<img width="1169" height="731" alt="Macbook-Air-1559x975" src="https://github.com/user-attachments/assets/4a3c9df2-5572-4654-a0a2-296696a52996" />
-
-
-
-Active
-<img width="1169" height="731" alt="Macbook-Air-active-1559x975" src="https://github.com/user-attachments/assets/7b71743f-b4da-44b4-923d-a8e208f576b9" />
-
-
-Error
-<img width="1169" height="731" alt="Macbook-Air-Error1559x975" src="https://github.com/user-attachments/assets/f3cb6769-e651-4509-a72f-72187d0c20fb" />
-
-
+Error messages appear if any inputs are missing or invalid.
 
 ---
 
-### Links
+## 📸 Demo
 
-* Live Site URL: [Tip Calculator](https://navidmirsoleimani.github.io/tip-calculator/)
+🔗 [Live Demo](#https://navidmirsoleimani.github.io/tip-calculator/) 
+
+
+Macbook Air (1559x975) initial state
+<img width="1559" height="975" alt="Macbook-Air-1559x975" src="https://github.com/user-attachments/assets/cce7365f-21c8-4880-8ee8-ac04234290ff" />
+
+
+Macbook Air (1559x975) final state
+<img width="1559" height="975" alt="Macbook-Air-1559x975-response" src="https://github.com/user-attachments/assets/4d806b7b-61c2-435e-88b8-cb979e40b3ac" />
+
+
+Macbook Air (1559x975) error state
+<img width="1559" height="975" alt="Macbook-Air-1559x975-error" src="https://github.com/user-attachments/assets/edf37b00-1299-4edd-a0fe-722e6826f664" />
+
+
+iPad (668x767)
+<img width="668" height="767" alt="iPad-668x767" src="https://github.com/user-attachments/assets/770ff6e1-5387-4c33-a280-6bebf9cf4ebd" />
+
+
+iPhone 14 pro (393x852)
+<img width="393" height="852" alt="iPhone-14-Pro-393x852" src="https://github.com/user-attachments/assets/49170917-f58d-4b6f-8b12-f48973b2f446" />
+
+
+---
+
+## 🛠️ Built With
+
+* **HTML5** – semantic structure
+* **CSS3** – responsive design and modern styling
+* **Vanilla JavaScript** – input validation, calculations, and interactivity
+
+---
+
+## ✨ Features
+
+* ✅ Calculate **tip per person** and **total per person**
+* ✅ Supports both **predefined** and **custom tip percentages**
+* ✅ Input validation with error messages for invalid or missing values
+* ✅ Fully responsive (desktop, tablet, and mobile)
+* ✅ Simple, user-friendly, and clean interface
 
 ---
 
 
-### Built with
 
-* **Semantic HTML5 markup**
-* **CSS custom properties**
-* **Flexbox & Grid** for layout
-* **Vanilla JavaScript (ES6+)** for functionality
+## 📱 Responsiveness
 
----
-
-### What I learned
-
-This project reinforced the importance of:
-
-* Handling **real-time input validation** and updating UI dynamically with JavaScript.
-* Designing a **responsive layout** that adapts across different screen sizes.
-* Implementing **reset functionality** and ensuring good user experience.
-* Writing cleaner, modular JavaScript functions for calculations and DOM updates.
-
-
-
-### Continued development
-
-In future iterations, I would like to:
-
-* Implement **dark mode** for better accessibility and user preference.
-* Explore **localStorage** to remember user inputs for repeated use.
-* Refactor the JavaScript code into more modular components for scalability.
+* **Desktop (≥1024px)** – full layout with form and results clearly displayed.
+* **Tablet (768px – 1023px)** – optimized input fields for medium screens.
+* **Mobile (≤767px)** – simplified stacked layout for easy input on small screens.
 
 ---
 
-### Useful resources
+## 🔮 Future Improvements
 
-* [MDN Web Docs](https://developer.mozilla.org/) – Excellent documentation for understanding JavaScript methods and CSS properties.
-* [CSS Tricks](https://css-tricks.com/) – Helpful for layout techniques with Flexbox and Grid.
-* [Frontend Mentor Community](https://www.frontendmentor.io/community) – Great place to see how others solved the same challenge.
-
----
-
-## Author
-
-* GitHub – [Navid Mirsoleimani](https://github.com/navidmirsoleimani)
+* Add support for different currencies.
+* Allow rounding options (e.g., round up per person).
+* Save last used tip percentage in local storage.
+* Improve accessibility with ARIA labels and keyboard navigation.
 
 ---
 
-## Acknowledgments
+## 🤝 Contributing
 
-A big thank you to **Frontend Mentor** for providing well-structured challenges that help developers sharpen their skills through real-world projects.
+Contributions are welcome! Feel free to fork this repo and submit pull requests.
 
 ---
