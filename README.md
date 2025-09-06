@@ -24,7 +24,7 @@ Error messages appear if any inputs are missing or invalid.
 
 ## 📸 Demo
 
-🔗 [Live Demo](#https://navidmirsoleimani.github.io/tip-calculator/) 
+🔗 [Live Demo](#https://navidmirsoleimani.github.io/tip-calculator/) https://navidmirsoleimani.github.io/tip-calculator/
 
 
 Macbook Air (1559x975) initial state
